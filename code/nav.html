@@ -1,0 +1,104 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-lightc dh navbar-custom shadow-sm">
+	<div class="container">
+		<a class="navbar-brand" href="#"><img src="img/logo/logo.png"></a>
+		<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navl" aria-controls="navbarsHeader" aria-expanded="false" aria-label="Toggle navigation">
+                <i></i>
+        </button>
+
+		<div class="collapse navbar-collapse text-center" id="navl">
+			<ul class="navbar-nav mr-auto mt-2 mt-lg-0 nl">
+				<li class="nav-item">
+					<a class="nav-link" href="/index.html">首页</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="/committees.html">组委会</a>
+				</li>
+				<li class="nav-item dropdown zk">
+					<a class="nav-link dropdown-toggle" href="/cfp.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">征文投稿 </a>
+					<ul class="dropdown-menu ejcd" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item lzc" href="/cfp.html?c=cfp">征文通知</a>
+						<a class="dropdown-item" href="/cfp.html?c=contributions">在线投稿</a>
+					</ul>
+				</li> 
+				<li class="nav-item">
+					<a class="nav-link" href="/lwbg.html">论文报告</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="/speakers.html">特邀嘉宾</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="/tutorials.html">讲习班</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="/program.html">大会日程</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="/doctor.html">博士生论坛</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="/registration.html">大会注册</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="/hotel.html">交通住宿</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="/sponsors.html">企业赞助</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+<script>
+	var headerMenu = function() {
+		var vertical_scroll = $(document).scrollTop();
+
+		$(window).scroll(function() {
+			var rolling_action = $(document).scrollTop();
+			if(rolling_action > 200) {
+				$('.dh').addClass('is-hidden')
+			}
+			if(rolling_action > vertical_scroll) {
+				$('.dh').removeClass('is-show');
+			} else {
+				$('.dh').removeClass('is-hidden').addClass('is-show');
+			}
+			if(rolling_action < 200) {
+				$('.dh').removeClass('is-show')
+			}
+			vertical_scroll = $(document).scrollTop()
+		})
+	};
+	var headerMobileMenu = function() {
+		$('[data-target="#navl"]').on('click', function() {
+			$('nav.navbar-custom').toggleClass('nav-show');
+			$(this).toggleClass('active')
+		});
+		$('#navl>ul>li').on('click', function() {
+			$(this).toggleClass('open')
+		})
+	};
+
+	var ec = function() {
+		$(".zk").mouseover(function() {
+			$(this).children(".dropdown-menu").addClass("show");
+		}).mouseout(function() {
+			$(this).children(".dropdown-menu").removeClass("show");
+		});
+	};
+
+	$(function() {
+		$(".nl").find("li").each(function() {
+			var a = $(this).find("a:first")[0];
+			if($(a).attr("href") === window.location.pathname) {
+				$(this).addClass("active");
+			} else {
+				$(this).removeClass("active");
+			}
+		});
+
+		ec();
+		headerMobileMenu();
+		//		headerMenu();
+	})
+</script>
