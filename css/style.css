@@ -794,10 +794,10 @@ li {
 
 .pc .ccbr_data {
 	position: absolute;
-	top: 80%;
-	left: 5%;
-	color: #1D2087;
-	font-weight: 500;
+    top: 83%;
+    left: 5.3%;
+    color: #1D2087;
+    font-weight: 500;
 }
 
 .mobile .ccbr_data {
