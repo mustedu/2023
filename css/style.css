@@ -690,6 +690,18 @@ li {
     text-align: center;
 }
 
+.ccbrdsdw .list-group-item {
+    position: relative;
+    display: inline-block;
+    padding: 0.4rem;
+    background-color: #fff;
+    /* border: 1px solid rgba(0, 0, 0, .125); */
+    border: 0;
+    width: 33.333%;
+    text-align: center;
+    border: 1px solid #0d6dbf;
+}
+
 .ccbr5jkwr453 .list-group-item,
 .ccbr5jkwr453 .ccbrdsdw .list-group-item {
 	width: 33.3% !important;
@@ -951,6 +963,5 @@ li {
     border-left: 1px solid #0d6dbf;
 }
 .i_m_left {
-    /* height: 680px; */
     padding-bottom: 30px;
 }
