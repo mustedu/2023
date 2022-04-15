@@ -38,7 +38,7 @@ body {
 @media (min-width: 991px) {
 	
 	#chtest{
-		height: 400px !important;
+		height: 478px !important;
 	}
 	#certify .swiper-slide {
 		width: 50%;
@@ -677,6 +677,15 @@ li {
 		max-width: 30%;
 		margin-left: 2%;
 	}
+	
+	.m_right2{
+		-ms-flex: 0 0 31.5% !important;
+		flex: 0 0 31.5% !important;
+    	max-width: 31.5% !important;
+    	margin-left: 0.5% !important;
+	}
+	
+	
 }
 
 .cmit .list-group-item {
