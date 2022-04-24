@@ -18,7 +18,17 @@ body {
 	margin-top: 3.5rem;
 	background-color: #f6f6f6;
 }
-
+div{
+	overflow-wrap: break-word;
+    word-wrap: break-word;
+    -ms-word-break: break-all;
+    word-break: break-all;
+    word-break: break-word;
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+}
 p{
 	overflow-wrap: break-word;
     word-wrap: break-word;
@@ -257,6 +267,13 @@ p{
 /*>=767的设备 }*/
 
 @media screen and (min-width: 768px) {
+	
+	.col-md-20 {
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    max-width: 20%;
+}
+	
 	.ccbr_yqjb {
 		height: 300px;
 	}
