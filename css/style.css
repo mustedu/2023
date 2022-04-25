@@ -288,6 +288,7 @@ p{
 	.ccbr_d23s344 {
 		height: 68%;
 		overflow: auto;
+		padding-right:5px ;
 	}
 	.col-45 {
 		-ms-flex: 0 0 45%;

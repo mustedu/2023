@@ -22,17 +22,27 @@
 				var html = '';
 				var json0 = {
 					"root": [{
-							"id": "c_2",
+							"id": "c_1",
 							"name": "杨强",
 							"title": "加拿大工程院及加拿大皇家科学院两院院士，微众银行首席人工智能官",
-							"content": "杨强，加拿大工程院及加拿大皇家科学院两院院士，微众银行首席人工智能官，香港科技大学计算机与工程系讲座教授和前系主任，AAAI-2021大会主席，国际人工智能联合会（IJCAI）理事会前主席，香港人工智能与机器人学会（HKSAIR）理事长，智能投研技术联盟（ITL）主席，ACM TIST 和IEEE TRANS on BIG DATA创始主编，CAAI，AAAI，ACM，IEEE，AAAS等多个国际学会Fellow。领衔全球迁移学习和联邦学习研究及应用，著作包括《迁移学习》、《联邦学习》和《联邦学习实战》等。",
+							"bio": "杨强，加拿大工程院及加拿大皇家科学院两院院士，微众银行首席人工智能官，香港科技大学计算机与工程系讲座教授和前系主任，AAAI-2021大会主席，国际人工智能联合会（IJCAI）理事会前主席，香港人工智能与机器人学会（HKSAIR）理事长，智能投研技术联盟（ITL）主席，ACM TIST 和IEEE TRANS on BIG DATA创始主编，CAAI，AAAI，ACM，IEEE，AAAS等多个国际学会Fellow。领衔全球迁移学习和联邦学习研究及应用，著作包括《迁移学习》、《联邦学习》和《联邦学习实战》等。",
+							"t":"",
+							"a":"",
 							"img": "img/jb/1.jpg"
+					},{
+							"id": "c_2",
+							"name": "张大鹏",
+							"title": "加拿大工程院及加拿大皇家科学院两院院士，香港中文大学（深圳）校长讲座教授",
+							"bio": "David Zhang graduated in Computer Science from Peking University. He received his MSc in 1982 and his PhD in 1985 in both Computer Science from the Harbin Institute of Technology (HIT), respectively. From 1986 to 1988 he was a Postdoctoral Fellow at Tsinghua University and then an Associate Professor at the Academia Sinica, Beijing. In 1994 he received his second PhD in Electrical and Computer Engineering from the University of Waterloo, Ontario, Canada. He has been a Chair Professor at the Hong Kong Polytechnic University where he is the Founding Director of Biometrics Research Centre (UGC/CRC) supported by the Hong Kong SAR Government since 1998. Currently he is X.Q. Deng Presidential Chair Professor in Chinese University of Hong Kong (Shenzhen). Over past 40 years, he has been working on pattern recognition, image processing and biometrics, where many research results have been awarded and some created directions, including medical biometrics and palmprint recognition, are famous in the world. So far, he has published over 20 monographs, 500+ international journal papers and 40+ patents from USA/Japan/China. He has been continuously 8 years listed as a Global Highly Cited Researchers in Engineering by Clarivate Analytics during 2014-2021. He is also ranked about 80 with H-Index 125 at Top 1,000 Scientists for international Computer Science and Electronics. Professor Zhang is selected as a Fellow of both RSC (Royal Society of Canada) and CAE (Canadian Academy of Engineering). He also is a Croucher Senior Research Fellow, and a Life IEEE Fellow and an IAPR/AAIA Fellow.",
+							"t": "Advanced Biometrics: Challenges and Developments",
+							"a": "In recent times, an increasing, worldwide effort has been devoted to the development of automatic personal identification systems that can be effective in a wide variety of security contexts. As one of the most powerful and reliable means of personal authentication, biometrics has been an area of particular interest. However, there are many challenges we faced in biometrics research. In order to solve these problems, it is necessary to develop some new methods, new technologies and new applications, which could be defined as Advanced Biometrics. This presentation will systematically explain this new research trend. As case studies, a new biometrics technology (palmprint recognition) and two new biometrics applications (medical biometrics and aesthetical biometrics) are introduced. Some useful achievements could be given to illustrate their effectiveness.",
+							"img": "img/jb/2.jpg"
 						}
 
 					]
 				};
 				$.each(json0.root, function(i, item) {　　
-					$(".zjrxs").append("<div class='row border-bottom mb-4 ccbr_yqjb'><div class='col-md-4 ccbr_d2sdwd'><img src='" + item.img + "'></div><div class='col-12 col-md-8 pl-md-0 ccbr_ds334244'><div class='ccbr_ds344'><h5>" + item.name + "</h5><p>" + item.title + "</p></div><p class='fs-12 ccbr_d23s344'>" + item.content + "</p></div></div>");
+					$(".zjrxs").append("<div class='row border-bottom mb-4 ccbr_yqjb'><div class='col-md-4 ccbr_d2sdwd'><img src='" + item.img + "'></div><div class='col-12 col-md-8 pl-md-0 ccbr_ds334244'><div class='ccbr_ds344'><h5>" + item.name + "</h5><p>" + item.title + "</p></div><p class='fs-12 ccbr_d23s344'><strong>简介：</strong>" + item.bio + "<br/><strong>报告题目：</strong>"+item.t+"<br/><strong>报告摘要：</strong>"+item.a+"</p></div></div>");
 				});
 			})
 		</script>
