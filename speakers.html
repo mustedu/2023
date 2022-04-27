@@ -37,12 +37,20 @@
 							"t": "Advanced Biometrics: Challenges and Developments",
 							"a": "In recent times, an increasing, worldwide effort has been devoted to the development of automatic personal identification systems that can be effective in a wide variety of security contexts. As one of the most powerful and reliable means of personal authentication, biometrics has been an area of particular interest. However, there are many challenges we faced in biometrics research. In order to solve these problems, it is necessary to develop some new methods, new technologies and new applications, which could be defined as Advanced Biometrics. This presentation will systematically explain this new research trend. As case studies, a new biometrics technology (palmprint recognition) and two new biometrics applications (medical biometrics and aesthetical biometrics) are introduced. Some useful achievements could be given to illustrate their effectiveness.",
 							"img": "img/jb/2.jpg"
+					},{
+							"id": "c_3",
+							"name": "Sébastien Marcel",
+							"title": "IDIAP研究所的高级研究员，瑞士生物识别研究与测试中心主任",
+							"bio": "Prof Sébastien Marcel (IEEE Senior member – H-index 61) is Professor at the University de Lausanne (UNIL) at the School of Criminal Justice and lecturer at the Ecole Polytechnique Fédérale de Lausanne (EPFL) where he is teaching on “Biometrics” and “Fundamentals in Statistical Pattern Recognition” respectively. He is a senior researcher at the Idiap Research Institute (Switzerland), he heads the Biometrics Security and Privacy group and conducts research on face recognition, speaker recognition, vein recognition, attack detection (presentation attacks, morphing attacks, deepfakes) and template protection.The Biometrics Security and Privacy group prioritizes reproducibility in research and make freely available the signal-processing and machine-learning toolbox Bob ( https://www.idiap.ch/software/bob/ ) and the BEAT platform ( https://www.beat-eu.org/platform/ ). He received his Ph.D. degree in signal processing from Université de Rennes I in France (2000) at CNET, the research center of France Telecom (now Orange Labs). He is also the Director of the Swiss Center for Biometrics Research and Testing ( http://www.biometrics-center.ch ) at Idiap, which conducts certifications of biometric products. He is Associate Editor of IEEE Transactions on Biometrics and Identity Science. He was VP Conferences of the IEEE Biometrics Council, Associate Editor of IEEE Signal Processing Letters, Associate Editor of IEEE Transactions on Information Forensics and Security, a Guest Editor of the IEEE Transactions on Information Forensics and Security Special Issue on “Biometric Spoofing and Countermeasures”, and Co-editor of the IEEE Signal Processing Magazine Special Issue on “Biometric Security and Privacy”. He is also the lead Editor of the Springer Handbook of Biometrics Anti-Spoofing (Editions 1, 2 and 3).",
+							"t": "",
+							"a": "",
+							"img": "img/jb/3.jpg"
 						}
 
 					]
 				};
 				$.each(json0.root, function(i, item) {　　
-					$(".zjrxs").append("<div class='row border-bottom mb-4 ccbr_yqjb'><div class='col-md-4 ccbr_d2sdwd'><img src='" + item.img + "'></div><div class='col-12 col-md-8 pl-md-0 ccbr_ds334244'><div class='ccbr_ds344'><h5>" + item.name + "</h5><p>" + item.title + "</p></div><p class='fs-12 ccbr_d23s344'><strong>简介：</strong>" + item.bio + "<br/><strong>报告题目：</strong>"+item.t+"<br/><strong>报告摘要：</strong>"+item.a+"</p></div></div>");
+					$(".zjrxs").append("<div class='row border-bottom mb-4 ccbr_yqjb'><div class='col-md-4 ccbr_d2sdwd'><img src='" + item.img + "'></div><div class='col-12 col-md-8 pl-md-0 ccbr_ds334244'><div class='ccbr_ds344'><h5><strong>" + item.name + "</strong></h5><p>" + item.title + "</p></div><p class='fs-12 ccbr_d23s344'><strong>简介：</strong>" + item.bio + "<br/><strong>报告题目：</strong>"+item.t+"<br/><strong>报告摘要：</strong>"+item.a+"</p></div></div>");
 				});
 			})
 		</script>
