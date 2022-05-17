@@ -50,6 +50,7 @@ p{
 
 .ccbr_zs {
 	color: #0f65b1;
+	margin-bottom: 1rem;
 }
 .ccbr_543234 td, .ccbr_543234 th {
     padding: 0.5rem;
@@ -683,7 +684,7 @@ a:visited {
 	text-indent: 0;
 }
 
-li {
+.ccbr_2432 li {
 	list-style-type: none
 }
 
