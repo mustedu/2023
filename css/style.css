@@ -39,6 +39,11 @@ p{
     -moz-hyphens: auto;
     -webkit-hyphens: auto;
     hyphens: auto;
+    
+    margin-bottom: 0.5rem !important;
+}
+ul{
+	padding-left: 20px;
 }
 .fs-18 {
 	font-size: 18px;
