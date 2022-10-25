@@ -1,21 +1,34 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
 		<meta charset="UTF-8">
 		<title>论文报告-中国生物特征识别大会</title>
 		<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
-        <META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
-        <META HTTP-EQUIV="Expires" CONTENT="0">
+		<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+		<META HTTP-EQUIV="Expires" CONTENT="0">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 		<meta name="keywords" content="中国生物特征识别大会,CCBR,生物识别,模式识别,图像处理,人工智能,AI,前沿,安全领域,论文,科研">
 		<meta name="description" content="本届大会将汇集生物识别各界领军者，以前瞻化、产业化视角促进学术与产业的交流，洞察生物特征识别在各个领域中的深度应用，解析并分享我国生物特征识别研究的最新理论和技术成果。">
 		<meta property="og:image" content="http://www.ccbr99.cn/img/logo/logo.png">
 		<link rel="shortcut icon" href="img/ico.png">
-		
+
 		<link href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/4.6.1/css/bootstrap.min.css" rel="stylesheet">
 		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/tab.css" />
 		<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 		<script src="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/4.6.1/js/bootstrap.min.js"></script>
+
+		<style>
+			td:first-child {
+				text-align: center;
+			}
+			
+			table {
+				font-size: 10.5pt;
+			}
+		</style>
+
 	</head>
 
 	<body>
@@ -26,170 +39,698 @@
 
 		<main class="container">
 			<div class="row">
+
+				<div class="cmit zw d-xl-none d-lg-none w-100">
+					<div class="nav" id="v-zw-tab" role="tablist" aria-orientation="vertical">
+						<a class="list-group-item list-group-item-action active" id="v-cfp-tab" data-toggle="pill" href="#l1" role="tab" aria-controls="v-lw" aria-selected="true">口头报告</a>
+						<a class="list-group-item list-group-item-action" id="v-cfp-tab" data-toggle="pill" href="#l2" role="tab" aria-controls="v-lw" aria-selected="false">墙报展示</a>
+					</div>
+				</div>
+
 				<div class="i_m_left text-justify introduction col-lg-8">
 					<div class="tab-content" id="v-zw-tabContent">
-						<div class="tab-pane fade show active mt-4 qxs" id="cz" role="tabpanel" aria-labelledby="v-cfp-tab">
-							信息更新中...
-							<!--<div class="text-center" id="l1">
-								<h5 class="title-wrap mb-4">报告指南</h5>
+
+						<div class="tab-pane fade show active mt-4" id="l1" role="tabpanel" aria-labelledby="v-cfp-tab">
+							<div class="text-center" id="l1">
+								<h5 class="title-wrap mb-4">口头报告</h5>
 							</div>
-							
-							<p style="text-indent: 2em;">CCBR2021一共收到了72份投稿。对于每一份投稿，CCBR2021都采用了严格的双盲评审流程。我们为每一份投稿邀请了至少三位程序委员会内的专家来参与审稿，并且保证了至少有两位专家的审稿反馈。共有85名来自程序委员会的专家参与了审稿，每位专家为1至5篇投稿提供了审稿反馈，我们由衷的感谢他们的付出。我们根据审稿人的意见进行了严格的筛选，最终有20篇论文被邀请作口头报告，33篇论文被邀请作墙报展示。这些论文最终构成了CCBR2021的论文集，并涵盖了多模态生物特征识别，新兴生物特征识别，手部生物特征识别，面部生物特征识别，语音生物特征识别等方向。</p>
-							<h6 class="ccbr_0f65b1 mt-4"><span class="ccbr_zs33"></span>CCBR2021论文报告说明</h6>
-							<p>查看详情：<a href="http://ccbr99.cn/files/CCBR2021%E8%AE%BA%E6%96%87%E6%8A%A5%E5%91%8A%E8%AF%B4%E6%98%8E.pdf">CCBR2021论文报告说明.pdf</a></p>
-							
-							<h6 class="ccbr_0f65b1 mt-4"><span class="ccbr_zs33"></span>CCBR2021海报模板</h6>
-							<p>模板下载：<a href="http://ccbr99.cn/files/CCBR2021-poster-template.pptx">CCBR2021-poster-template.pptx</a></p>
+							<h6 class="mt-4 ccbr_zs"><span class="ccbr_zs33"></span>口头报告尺寸：16:9</h6>
+							<p>模板下载：<a href="file/CCBR报告模板—16：9.pptx">CCBR报告模板—16:9.pptx</a></p>
+							<table border=0 cellpadding=0 cellspacing=0 class="table table-hover table-striped table-bordered table-sm zlwsl text-left">
 
-							<div class="mt-4 qy ccbr_lw313">
-							<table class="table table-hover table-striped table-bordered">
-									<thead>
-										<tr class="text-center">
-											<th scope="col" width="50%">Oral（口头汇报）论文ID</th>
-											<th scope="col" width="50%">Poster（墙报展示）论文ID</th>
-										</tr>
-									</thead>
+								<tr height=27 style='mso-height-source:userset;height:20.0pt'>
+									<td colspan=4 height=27 class=xl95 style='height:20.0pt;'>口头报告：医学</td>
+								</tr>
+								<tr height=47 style='mso-height-source:userset;height:35.0pt'>
+									<td colspan=4 height=47 class=xl66 style='height:35.0pt;'>时间：11月12日 15:00–15:20
+										<br> 地点：分会场三 CB102</td>
+								</tr>
+								<tr height=27 style='mso-height-source:userset;height:20.0pt'>
+									<td height=27 class=xl88 style='height:20.0pt;border-top:none;
+  '>时间</td>
+									<td class=xl88 style='border-top:none;border-left:none; white-space: nowrap;'>论文ID</td>
+									<td class=xl88 style='border-top:none;border-left:none;'>报告题目</td>
+									<td class=xl88 style='border-top:none;border-left:none;'>报告人</td>
+								</tr>
+								<tr height=60 style='height:45.0pt'>
+									<td height=60 class=xl90 style='height:45.0pt; white-space: nowrap;'>15:00-15:10</td>
+									<td class=xl66 style='border-left:none;'>85</td>
+									<td class=xl66 style='border-left:none;'>Recurrence Quantification Analysis of Cardiovascular System During Cardiopulmonary Resuscitation
+									</td>
+									<td class=xl66 style='border-left:none;'>Shuxin Chen，Lijun Jiang，Chang Pan，Jiaojiao Pang，Jiali Wang，Feng Xu，Yuguo Chen，Ke Li
+										<span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;</span></td>
+								</tr>
+								<tr height=60 style='height:45.0pt'>
+									<td height=60 class=xl66 style='height:45.0pt;border-top:none;
+  '>15:10-15:20</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>5</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>GI Tract Lesion Classification Using Multi-task Capsule Networks with Hierarchical Convolutional Layers</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Mumtaz Ali, Chao Li, Kun He</td>
+								</tr>
+								<tr height=19 style='height:14.0pt'>
+									<td height=19 colspan=2 style='height:14.0pt;mso-ignore:colspan'></td>
+									<td class=xl89></td>
+									<td></td>
+								</tr>
+								<tr height=27 style='mso-height-source:userset;height:20.0pt'>
+									<td colspan=4 height=27 class=xl95 style='height:20.0pt;'>口头报告：人脸识别</td>
+								</tr>
+								<tr height=47 style='mso-height-source:userset;height:35.0pt'>
+									<td colspan=4 height=47 class=xl66 style='height:35.0pt;'>时间：11月12日 16:30–16:50
+										<br> 地点：分会场三 CB102</td>
+								</tr>
+								<tr height=27 style='mso-height-source:userset;height:20.0pt'>
+									<td height=27 class=xl88 style='height:20.0pt;border-top:none;
+  '>时间</td>
+									<td class=xl88 style='border-top:none;border-left:none;'>论文ID</td>
+									<td class=xl88 style='border-top:none;border-left:none;'>报告题目</td>
+									<td class=xl88 style='border-top:none;border-left:none;'>报告人</td>
+								</tr>
+								<tr height=40 style='height:30.0pt'>
+									<td height=40 class=xl66 style='height:30.0pt;'>16:30-16:40</td>
+									<td class=xl66 style='border-left:none;'>83</td>
+									<td class=xl66 style='border-left:none;'>Synthesizing Talking Face Videos with a Spatial Attention Mechanism</td>
+									<td class=xl66 style='border-left:none;'>Ting Wang，Chaoyong Zhou，Shiqi Yu</td>
+								</tr>
+								<tr height=60 style='height:45.0pt'>
+									<td height=60 class=xl66 style='height:45.0pt;border-top:none;
+  '>16:40-16:50</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>63</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Pose-unconstrainted 3D Lip Behaviometrics via Unsupervised Symmetry Correction</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Xinyang Pian, Jie Zhang</td>
+								</tr>
+								<tr height=19 style='height:14.0pt'>
+									<td height=19 colspan=2 style='height:14.0pt;mso-ignore:colspan'></td>
+									<td class=xl89></td>
+									<td></td>
+								</tr>
+								<tr height=27 style='mso-height-source:userset;height:20.0pt'>
+									<td colspan=4 height=27 class=xl95 style='height:20.0pt;'>口头报告：隐私计算、伪造</td>
+								</tr>
+								<tr height=47 style='mso-height-source:userset;height:35.0pt'>
+									<td colspan=4 height=47 class=xl66 style='height:35.0pt;'>时间：11月12日 17:50–18:10
+										<br> 地点：分会场三 CB102</td>
+								</tr>
+								<tr height=27 style='mso-height-source:userset;height:20.0pt'>
+									<td height=27 class=xl88 style='height:20.0pt;border-top:none;
+  '>时间</td>
+									<td class=xl88 style='border-top:none;border-left:none;'>论文ID</td>
+									<td class=xl88 style='border-top:none;border-left:none;'>报告题目</td>
+									<td class=xl88 style='border-top:none;border-left:none;'>报告人</td>
+								</tr>
+								<tr height=40 style='height:30.0pt'>
+									<td height=40 class=xl66 style='height:30.0pt;'>17:50-18:00</td>
+									<td class=xl66 style='border-left:none;'>60</td>
+									<td class=xl66 style='border-left:none;'>A Survey of Domain Generalization-based Face Anti-spoofing</td>
+									<td class=xl66 style='border-left:none;'>Fangling Jiang, Yunfan Liu, Bing Liu, Xiaoliang Chen, Qi Li</td>
+								</tr>
+								<tr height=60 style='height:45.0pt'>
+									<td height=60 class=xl66 style='height:45.0pt;border-top:none;
+  '>18:00-18:10</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>10</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Spoof Speech Detection Based on Raw Cross-dimension Interaction Attention Network</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Ye Zhou, Jianwu Zhang</td>
+								</tr>
+								<tr height=19 style='height:14.0pt'>
+									<td height=19 colspan=2 style='height:14.0pt;mso-ignore:colspan'></td>
+									<td class=xl89></td>
+									<td></td>
+								</tr>
+								<tr height=27 style='mso-height-source:userset;height:20.0pt'>
+									<td colspan=4 height=27 class=xl95 style='height:20.0pt;'>口头报告：语音</td>
+								</tr>
+								<tr height=47 style='mso-height-source:userset;height:35.0pt'>
+									<td colspan=4 height=47 class=xl66 style='height:35.0pt;'>时间：11月13日 15:00–15:20
+										<br> 地点：分会场二 CB101</td>
+								</tr>
+								<tr height=27 style='mso-height-source:userset;height:20.0pt'>
+									<td height=27 class=xl88 style='height:20.0pt;border-top:none;
+  '>时间</td>
+									<td class=xl88 style='border-top:none;border-left:none;'>论文ID</td>
+									<td class=xl88 style='border-top:none;border-left:none;'>报告题目</td>
+									<td class=xl88 style='border-top:none;border-left:none;'>报告人</td>
+								</tr>
+								<tr height=40 style='height:30.0pt'>
+									<td height=40 class=xl66 style='height:30.0pt;'>15:00-15:10</td>
+									<td class=xl66 style='border-left:none;'>120</td>
+									<td class=xl66 style='border-left:none;'>Online Neural Speaker Diarization with Core Samples</td>
+									<td class=xl66 style='border-left:none;'>Yanyan Yue, Jun Du, Mao-Kui He</td>
+								</tr>
+								<tr height=60 style='height:45.0pt'>
+									<td height=60 class=xl66 style='height:45.0pt;border-top:none;
+  '>15:10-15:20</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>58</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>ATRemix: An Auto-Tune Remix Dataset for Singer Recognition</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Lifang&nbsp;Wang, Bingyuan Wang, Guanghao Tan, Wei-Qiang Zhang, Jun Feng, Bing Zhu, Shengjin Wang
+									</td>
+								</tr>
+								<tr height=19 style='height:14.0pt'>
+									<td height=19 colspan=2 style='height:14.0pt;mso-ignore:colspan'></td>
+									<td class=xl89></td>
+									<td></td>
+								</tr>
+								<tr height=27 style='mso-height-source:userset;height:20.0pt'>
+									<td colspan=4 height=27 class=xl95 style='height:20.0pt;'>口头报告：掌纹、指纹</td>
+								</tr>
+								<tr height=47 style='mso-height-source:userset;height:35.0pt'>
+									<td colspan=4 height=47 class=xl66 style='height:35.0pt;'>时间：11月13日 16:30–16:50
+										<br> 地点：分会场二 CB101</td>
+								</tr>
+								<tr height=27 style='mso-height-source:userset;height:20.0pt'>
+									<td height=27 class=xl88 style='height:20.0pt;border-top:none;
+  '>时间</td>
+									<td class=xl88 style='border-top:none;border-left:none;'>论文ID</td>
+									<td class=xl88 style='border-top:none;border-left:none;'>报告题目</td>
+									<td class=xl88 style='border-top:none;border-left:none;'>报告人</td>
+								</tr>
+								<tr height=40 style='height:30.0pt'>
+									<td height=40 class=xl66 style='height:30.0pt;'>16:30-16:40</td>
+									<td class=xl66 style='border-left:none;'>69</td>
+									<td class=xl66 style='border-left:none;'>TransFinger: Transformer based Finger Tri-modal Biometrics</td>
+									<td class=xl66 style='border-left:none;'>Zhuolin Zhao，Haigang Zhang，Zhibin Chen，Jinfeng Yang</td>
+								</tr>
+								<tr height=60 style='height:45.0pt'>
+									<td height=60 class=xl66 style='height:45.0pt;border-top:none;
+  '>16:40-16:50</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>102</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Texture-guided multiscale feature learning network for palmprint image quality assessment</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Xiao Sun, Lunke Fei, Shuping Zhao, Shuyi Li, Jie Wen, Wei Jia</td>
+								</tr>
+								<tr height=19 style='height:14.0pt'>
+									<td height=19 colspan=2 style='height:14.0pt;mso-ignore:colspan'></td>
+									<td class=xl89></td>
+									<td></td>
+								</tr>
+								<tr height=27 style='mso-height-source:userset;height:20.0pt'>
+									<td colspan=4 height=27 class=xl95 style='height:20.0pt;'>口头报告：动物识别专题论坛</td>
+								</tr>
+								<tr height=47 style='mso-height-source:userset;height:35.0pt'>
+									<td colspan=4 height=47 class=xl66 style='height:35.0pt;'>时间：11月13日 17:50–18:10
+										<br> 地点：分会场二 CB101</td>
+								</tr>
+								<tr height=27 style='mso-height-source:userset;height:20.0pt'>
+									<td height=27 class=xl88 style='height:20.0pt;border-top:none;
+  '>时间</td>
+									<td class=xl88 style='border-top:none;border-left:none;'>论文ID</td>
+									<td class=xl88 style='border-top:none;border-left:none;'>报告题目</td>
+									<td class=xl88 style='border-top:none;border-left:none;'>报告人</td>
+								</tr>
+								<tr height=40 style='height:30.0pt'>
+									<td height=40 class=xl66 style='height:30.0pt;'>17:50-18:00</td>
+									<td class=xl66 style='border-left:none;'>54</td>
+									<td class=xl66 style='border-left:none;'>Salient Foreground-Aware Network for Person Search</td>
+									<td class=xl66 style='border-left:none;'>Hongxu Chen, Quan Zhang, Jianhuang Lai</td>
+								</tr>
+								<tr height=60 style='height:45.0pt'>
+									<td height=60 class=xl66 style='height:45.0pt;border-top:none;
+  '>18:00-18:10</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>94</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Self-Attention based Cross-level Fusion Network for Camouflaged Object Detection</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Chunlan Zhan, Linyan He, Baolei Xu, Anzhi Wang</td>
+								</tr>
+								<tr height=19 style='height:14.0pt'>
+									<td height=19 colspan=2 style='height:14.0pt;mso-ignore:colspan'></td>
+									<td class=xl89></td>
+									<td></td>
+								</tr>
+								<tr height=27 style='mso-height-source:userset;height:20.0pt'>
+									<td colspan=4 height=27 class=xl95 style='height:20.0pt;'>口头报告：虹膜、指静脉</td>
+								</tr>
+								<tr height=47 style='mso-height-source:userset;height:35.0pt'>
+									<td colspan=4 height=47 class=xl66 style='height:35.0pt;'>时间：11月13日 15:00–15:20
+										<br> 地点：分会场三 CB102</td>
+								</tr>
+								<tr height=27 style='mso-height-source:userset;height:20.0pt'>
+									<td height=27 class=xl88 style='height:20.0pt;border-top:none;
+  '>时间</td>
+									<td class=xl88 style='border-top:none;border-left:none;'>论文ID</td>
+									<td class=xl88 style='border-top:none;border-left:none;'>报告题目</td>
+									<td class=xl88 style='border-top:none;border-left:none;'>报告人</td>
+								</tr>
+								<tr height=60 style='height:45.0pt'>
+									<td height=60 class=xl66 style='height:45.0pt;'>15:00-15:10</td>
+									<td class=xl66 style='border-left:none;'>33</td>
+									<td class=xl66 style='border-left:none;'>Multi-view Finger Vein Recognition using Attention-based MVCNN</td>
+									<td class=xl66 style='border-left:none;'>Weili Yang, Junduan Huang, Zhuoming Chen, Junhong Zhao, Wenxiong Kang</td>
+								</tr>
+								<tr height=60 style='height:45.0pt'>
+									<td height=60 class=xl66 style='height:45.0pt;border-top:none;
+  '>15:10-15:20</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>9</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>DUAL MODE NEAR-INFRARED SCANNER FOR IMAGING DORSAL HAND VEINS</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Zhibo Zhang, Lin Cui, Qingyi Liu, Guozhong Liu, Ran Zhang, Meng Tian, Yingxia Fu, Peirui Bai</td>
+								</tr>
+								<tr height=19 style='height:14.0pt'>
+									<td height=19 colspan=2 style='height:14.0pt;mso-ignore:colspan'></td>
+									<td class=xl89></td>
+									<td></td>
+								</tr>
+								<tr height=27 style='mso-height-source:userset;height:20.0pt'>
+									<td colspan=4 height=27 class=xl95 style='height:20.0pt;'>口头报告：步态识别</td>
+								</tr>
+								<tr height=47 style='mso-height-source:userset;height:35.0pt'>
+									<td colspan=4 height=47 class=xl66 style='height:35.0pt;'>时间：11月13日 16:30–16:50
+										<br> 地点：分会场三 CB102</td>
+								</tr>
+								<tr height=27 style='mso-height-source:userset;height:20.0pt'>
+									<td height=27 class=xl88 style='height:20.0pt;border-top:none;
+  '>时间</td>
+									<td class=xl88 style='border-top:none;border-left:none;'>论文ID</td>
+									<td class=xl88 style='border-top:none;border-left:none;'>报告题目</td>
+									<td class=xl88 style='border-top:none;border-left:none;'>报告人</td>
+								</tr>
+								<tr height=60 style='height:45.0pt'>
+									<td height=60 class=xl66 style='height:45.0pt;'>16:30-16:40</td>
+									<td class=xl66 style='border-left:none;'>67</td>
+									<td class=xl66 style='border-left:none;'>Multi-Level Temporal-Guided Graph Convolutional Networks for Skeleton-Based Action Recognition
+									</td>
+									<td class=xl66 style='border-left:none;'>Kunlun Wu, and Xun Gong</td>
+								</tr>
+								<tr height=60 style='height:45.0pt'>
+									<td height=60 class=xl66 style='height:45.0pt;border-top:none;
+  '>16:40-16:50</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>132</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Gait Recognition in Sensing Insoles: a study based on a Hybrid CNN-Attention-LSTM Network
+									</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Jing Yue, zhanyong mei, Kamen Ivanov, yingyi li, tong he, Hui Zeng</td>
+								</tr>
+								<tr height=19 style='height:14.0pt'>
+									<td height=19 colspan=2 style='height:14.0pt;mso-ignore:colspan'></td>
+									<td class=xl89></td>
+									<td></td>
+								</tr>
+								<tr height=27 style='mso-height-source:userset;height:20.0pt'>
+									<td colspan=4 height=27 class=xl95 style='height:20.0pt;'>口头报告：情感和人机交互</td>
+								</tr>
+								<tr height=47 style='mso-height-source:userset;height:35.0pt'>
+									<td colspan=4 height=47 class=xl66 style='height:35.0pt;'>时间：11月13日 17:50–18:10
+										<br> 地点：分会场三 CB102</td>
+								</tr>
+								<tr height=27 style='mso-height-source:userset;height:20.0pt'>
+									<td height=27 class=xl88 style='height:20.0pt;border-top:none;
+  '>时间</td>
+									<td class=xl88 style='border-top:none;border-left:none;'>论文ID</td>
+									<td class=xl88 style='border-top:none;border-left:none;'>报告题目</td>
+									<td class=xl88 style='border-top:none;border-left:none;'>报告人</td>
+								</tr>
+								<tr height=60 style='height:45.0pt'>
+									<td height=60 class=xl66 style='height:45.0pt;'>17:50-18:00</td>
+									<td class=xl66 style='border-left:none;'>21</td>
+									<td class=xl66 style='border-left:none;'>Dynamic Hand Gesture Authentication Based on Improved Two-stream CNN</td>
+									<td class=xl66 style='border-left:none;'>Wenwei Song,Linpu Fang,Yihong Lin,Ming Zeng1,Wenxiong Kang</td>
+								</tr>
+								<tr height=60 style='height:45.0pt'>
+									<td height=60 class=xl66 style='height:45.0pt;border-top:none;
+  '>18:00-18:10</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>25</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Hemispheric Asymmetry Measurement Network for Emotion Classification</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Ruofan Yan, Na Lu, Xu Niu, Yuxuan Yan</td>
+								</tr>
 
-									<tbody>
-										<tr>
-											<td>8</td>
-											<td>12</td>
-										</tr>
-										<tr>
-											<td>9</td>
-											<td>14</td>
-										</tr>
-										<tr>
-											<td>13</td>
-											<td>17</td>
-										</tr>
-										<tr>
-											<td>23</td>
-											<td>25</td>
-										</tr>
-										<tr>
-											<td>26</td>
-											<td>29</td>
-										</tr>
-										<tr>
-											<td>28</td>
-											<td>30</td>
-										</tr>
-										<tr>
-											<td>32</td>
-											<td>31</td>
-										</tr>
-										<tr>
-											<td>33</td>
-											<td>36</td>
-										</tr>
-										<tr>
-											<td>34</td>
-											<td>41</td>
-										</tr>
-										<tr>
-											<td>35</td>
-											<td>42</td>
-										</tr>
-										<tr>
-											<td>37</td>
-											<td>44</td>
-										</tr>
-										<tr>
-											<td>40</td>
-											<td>45</td>
-										</tr>
-										<tr>
-											<td>53</td>
-											<td>46</td>
-										</tr>
-										<tr>
-											<td>59</td>
-											<td>47</td>
-										</tr>
-										<tr>
-											<td>61</td>
-											<td>48</td>
-										</tr>
-										<tr>
-											<td>62</td>
-											<td>49</td>
-										</tr>
-										<tr>
-											<td>66</td>
-											<td>50</td>
-										</tr>
-										<tr>
-											<td>73</td>
-											<td>52</td>
-										</tr>
-										<tr>
-											<td>82</td>
-											<td>54</td>
-										</tr>
-										<tr>
-											<td>84</td>
-											<td>55</td>
-										</tr>
-										
-										<tr>
-											<td></td>
-											<td>60</td>
-										</tr>
-										<tr>
-											<td></td>
-											<td>63</td>
-										</tr>
-										<tr>
-											<td></td>
-											<td>64</td>
-										</tr>
-										<tr>
-											<td></td>
-											<td>65</td>
-										</tr>
-										<tr>
-											<td></td>
-											<td>68</td>
-										</tr>
-										<tr>
-											<td></td>
-											<td>69</td>
-										</tr>
-										<tr>
-											<td></td>
-											<td>71</td>
-										</tr>
-										<tr>
-											<td></td>
-											<td>72</td>
-										</tr>
-										<tr>
-											<td></td>
-											<td>74</td>
-										</tr>
-										<tr>
-											<td></td>
-											<td>75</td>
-										</tr>
-										<tr>
-											<td></td>
-											<td>77</td>
-										</tr>
-										<tr>
-											<td></td>
-											<td>80</td>
-										</tr>
-										<tr>
-											<td></td>
-											<td>81</td>
-										</tr>
-										
-									</tbody>
-								</table>
-							</div>-->
-							
+							</table>
+
 						</div>
+
+						<div class="tab-pane fade mt-4" id="l2" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+							<div class="text-center" id="l1">
+								<h5 class="title-wrap mb-3">墙报展示</h5>
+							</div>
+							<h6 class="mt-4 ccbr_zs"><span class="ccbr_zs33"></span>墙报展示尺寸：120cm（高）*90cm（宽）</h6>
+							<p>模板下载：<a href="file/CCBR墙报展示—120cm（高）90cm（宽）.pptx">CCBR墙报展示—120cm（高）90cm（宽）.pptx</a></p>
+
+							<table border=0 cellpadding=0 cellspacing=0 class="table table-hover table-striped table-bordered table-sm zlwsl text-left">
+
+								<tr height=27 style='mso-height-source:userset;height:20.0pt'>
+									<td height=27 class=xl88 style='height:20.0pt; white-space: nowrap;'>展板ID</td>
+									<td class=xl88 style='border-left:none; white-space: nowrap;'>论文ID</td>
+									<td class=xl88 style='border-left:none;'>论文题目</td>
+									<td class=xl88 style='border-left:none;'>作者</td>
+								</tr>
+								<tr height=40 style='height:30.0pt'>
+									<td height=40 class=xl66 style='height:30.0pt;'>1</td>
+									<td class=xl66 style='border-left:none;'>37</td>
+									<td class=xl66 style='border-left:none;'>A novel multi-layered minutiae extractor based on OCT fingerprints</td>
+									<td class=xl66 style='border-left:none;'>Weili Yang, Junduan Huang, Zhuoming Chen, Junhong Zhao, Wenxiong Kang</td>
+								</tr>
+								<tr height=40 style='height:30.0pt'>
+									<td height=40 class=xl66 style='height:30.0pt;border-top:none;
+  '>2</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>81</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Combining Band-Limited OTSDF Filter and Directional Representation for Palmprint Recognition
+									</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Chaoxiang Hou，Wei Jia</td>
+								</tr>
+								<tr height=20 style='height:15.0pt'>
+									<td height=20 class=xl66 style='height:15.0pt;border-top:none;
+  '>3</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>82</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Multi-Stream Convolutional Neural Networks Fusion for Palmprint Recognition</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Qing Zhou，Wei Jia，Ye Yu</td>
+								</tr>
+								<tr height=20 style='height:15.0pt'>
+									<td height=20 class=xl66 style='height:15.0pt;border-top:none;
+  '>4</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>52</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>FINGER TRIMODAL FEATURES CODING FUSION METHOD</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Mengna Wen, Ziyun Ye, Jinfeng Yang</td>
+								</tr>
+								<tr height=20 style='height:15.0pt'>
+									<td height=20 class=xl66 style='height:15.0pt;border-top:none;
+  '>5</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>80</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>A Finger BiModal Fusion Algorithm based on Improved DenseNet</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Lv Wenhao，Hui Ma，Yu Li<span style='mso-spacerun:yes'>&nbsp;</span></td>
+								</tr>
+								<tr height=40 style='height:30.0pt'>
+									<td height=40 class=xl66 style='height:30.0pt;border-top:none;
+  '>6</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>7</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Low-illumination Palmprint Image Enhancement Method Based On U-Net Neural Network</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Kaijun Zhou, Duojie Lu, Xiancheng Zhou, Guangnan Liu</td>
+								</tr>
+								<tr height=40 style='height:30.0pt'>
+									<td height=40 class=xl66 style='height:30.0pt;border-top:none;
+  '>7</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>15</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Cross-Dataset Image Matching Network for Heterogeneous Palmprint Recognition</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Yuchen Zou, Dexing Zhong, Huikai Shao</td>
+								</tr>
+								<tr height=40 style='height:30.0pt'>
+									<td height=40 class=xl66 style='height:30.0pt;border-top:none;
+  '>8</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>47</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>A novel dual-modal biometric recognition method based on weighted joint group sparse representation classification</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Chunxin Fang ; Hui Ma ; YU LI</td>
+								</tr>
+								<tr height=20 style='height:15.0pt'>
+									<td height=20 class=xl66 style='height:15.0pt;border-top:none;
+  '>9</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>135</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>SP-FVR: SuperPoint-based Finger Vein Recognition</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Xianjing Meng,
+										<span style='mso-spacerun:yes'>&nbsp; </span>Shuai Yuan</td>
+								</tr>
+								<tr height=40 style='height:30.0pt'>
+									<td height=40 class=xl66 style='height:30.0pt;border-top:none;
+  '>10</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>119</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>SELECTIVE DETAIL ENHANCEMENT ALGORITHM FOR FINGER VEIN IMAGES</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Mingze Sun, Jiahao Li, Huabin Wang, Yujie Xu, Liang Tao</td>
+								</tr>
+								<tr height=40 style='height:30.0pt'>
+									<td height=40 class=xl66 style='height:30.0pt;border-top:none;
+  '>11</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>44</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Attention Skip Connection Dense Network for Accurate Iris Segmentation</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Shubin Guo, Ying Chen, Yugang Zeng, Liang Xu</td>
+								</tr>
+								<tr height=40 style='height:30.0pt'>
+									<td height=40 class=xl66 style='height:30.0pt;border-top:none;
+  '>12</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>6</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>A lightweight segmentation network based on extraction</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>QIN Chuanbo, LIN Xihua, CHEN Yucong</td>
+								</tr>
+								<tr height=40 style='height:30.0pt'>
+									<td height=40 class=xl66 style='height:30.0pt;border-top:none;
+  '>13</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>49</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>IrisGuard: Image Forgery Detection for Iris Anti-spoofing</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Wenqi Zhuo, Wei Wang, Hui Zhang, and Jing Dong</td>
+								</tr>
+								<tr height=40 style='height:30.0pt'>
+									<td height=40 class=xl66 style='height:30.0pt;border-top:none;
+  '>14</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>106</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Learning Optimal Transport Mapping of Joint Distribution for Cross-Scenario Face Anti-Spoofing
+									</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Shiyun Mao, Ruolin Chen, Huibin Li</td>
+								</tr>
+								<tr height=40 style='height:30.0pt'>
+									<td height=40 class=xl66 style='height:30.0pt;border-top:none;
+  '>15</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>70</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Face Forgery Detection by Multi-dimensional Image Decomposition</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Tianshuo Zhang，Xiangyu Zhu，Feng Pan，Ke Xiang，Zhen Lei</td>
+								</tr>
+								<tr height=40 style='height:30.0pt'>
+									<td height=40 class=xl66 style='height:30.0pt;border-top:none;
+  '>16</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>118</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Multi-branch network with circle loss using voice conversion and channel robust data augmentation for synthetic speech detection</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Ruoyu Wang, Jun Du, Chang Wang</td>
+								</tr>
+								<tr height=20 style='height:15.0pt'>
+									<td height=20 class=xl66 style='height:15.0pt;border-top:none;
+  '>17</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>110</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Estimation of Gaze-Following Based on Transformer and the Guiding Offset</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Sheng Gao, Xiao Sun, Jia Li</td>
+								</tr>
+								<tr height=40 style='height:30.0pt'>
+									<td height=40 class=xl66 style='height:30.0pt;border-top:none;
+  '>18</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>40</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>MLFW: A Database for Face Recognition on Masked Faces</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Chengrui Wang, Han Fang, Yaoyao Zhong, and Weihong Deng</td>
+								</tr>
+								<tr height=20 style='height:15.0pt'>
+									<td height=20 class=xl66 style='height:15.0pt;border-top:none;
+  '>19</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>68</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Sparsity-Regularized Geometric Mean Metric Learning for Kinship Verification</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Yunhao Xu, Junlin Hu</td>
+								</tr>
+								<tr height=40 style='height:30.0pt'>
+									<td height=40 class=xl66 style='height:30.0pt;border-top:none;
+  '>20</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>129</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>YoloMask: An Enhanced YOLO Model for Detection of Face Mask Wearing Normality, Irregularity and Spoofing</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Zhicheng Cao, Wenlong Li, Heng Zhao, Liaojun Pang<span style='mso-spacerun:yes'>&nbsp;</span></td>
+								</tr>
+								<tr height=60 style='height:45.0pt'>
+									<td height=60 class=xl66 style='height:45.0pt;border-top:none;
+  '>21</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>64</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>An Empirical Comparative Analysis of Africans with Asians using DCNN Facial Biometric Models</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Jawad Muhammad, Yunlong Wang, Leyuan Wang, Kunbo Zhang, and Zhenan Sun</td>
+								</tr>
+								<tr height=20 style='height:15.0pt'>
+									<td height=20 class=xl66 style='height:15.0pt;border-top:none;
+  '>22</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>50</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Disentanglement of Deep Features for Adversarial Face Detection</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Bo Yan, Quanwei Wu, and Yi Wang</td>
+								</tr>
+								<tr height=40 style='height:30.0pt'>
+									<td height=40 class=xl66 style='height:30.0pt;border-top:none;
+  '>23</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>78</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Low-resource speech keyword search based on residual neural network</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Dafei Wang，Zhihua Huang，Hui Li，Wenchen Liu</td>
+								</tr>
+								<tr height=40 style='height:30.0pt'>
+									<td height=40 class=xl66 style='height:30.0pt;border-top:none;
+  '>24</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>20</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>An End-to-end Conformer-based Speech Recognition Model for Mandarin Radiotelephony Communications in Civil Aviation</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Yihua Shi1,Guanglin Ma,Jin Ren,Haigang Zhang,Jinfeng Yang</td>
+								</tr>
+								<tr height=20 style='height:15.0pt'>
+									<td height=20 class=xl66 style='height:15.0pt;border-top:none;
+  '>25</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>113</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Virtual Fully-Connected Layer for a Large-Scale Speaker Verification Dataset</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Zhida Song，Liang HE，Zhihua Fang</td>
+								</tr>
+								<tr height=40 style='height:30.0pt'>
+									<td height=40 class=xl66 style='height:30.0pt;border-top:none;
+  '>26</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>91</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Fusion of Gait and Face for Human Identification at the Feature Level</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Hui Fu，Wenxiong Kang，Yuxuan Zhang，Muhammad Saad Shakeel</td>
+								</tr>
+								<tr height=40 style='height:30.0pt'>
+									<td height=40 class=xl66 style='height:30.0pt;border-top:none;
+  '>27</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>127</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Identity Authentication Using a Multimodal Sensing Insole – a Feasibility Study</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Hui Zeng, Sijia Yi, Zijie Mei, Tong He, Jing Yue, Kamen Ivanov, Zhanyong Mei</td>
+								</tr>
+								<tr height=60 style='height:45.0pt'>
+									<td height=60 class=xl66 style='height:45.0pt;border-top:none;
+  '>28</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>42</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Contrastive and Consistent Learning for Unsupervised Human Parsing</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Xiaomei Zhang，Feng Pan，Ke Xiang，Xiangyu Zhu，Chang Yu，Zidu Wang，Zhen Lei</td>
+								</tr>
+								<tr height=20 style='height:15.0pt'>
+									<td height=20 class=xl66 style='height:15.0pt;border-top:none;
+  '>29</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>87</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Multidimension Joint Networks for Action Recognition</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Wanhao Jia，Yi Jin，Hui Tian</td>
+								</tr>
+								<tr height=40 style='height:30.0pt'>
+									<td height=40 class=xl66 style='height:30.0pt;border-top:none;
+  '>30</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>79</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Gait Recognition with Various Data Modalities: A Review</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Wei Li，Jiwei Song，Yao Liu，Chen Zhong，Li Geng，Wenfeng Wang</td>
+								</tr>
+								<tr height=20 style='height:15.0pt'>
+									<td height=20 class=xl66 style='height:15.0pt;border-top:none;
+  '>31</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>74</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Research on Gesture Recognition of Surface EMG Based on Machine Learning</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Linjie Liu，Na Zhang，Ke Li<span style='mso-spacerun:yes'>&nbsp;</span></td>
+								</tr>
+								<tr height=40 style='height:30.0pt'>
+									<td height=40 class=xl66 style='height:30.0pt;border-top:none;
+  '>32</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>45</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Human Action Recognition Algorithm of Non-Local Two-Stream Convolution Network Based on Image Depth Flow</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Bo Li ; Pan Pan; Xin Feng ; Yongxin Ge</td>
+								</tr>
+								<tr height=40 style='height:30.0pt'>
+									<td height=40 class=xl66 style='height:30.0pt;border-top:none;
+  '>33</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>111</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Grading Diagnosis of Sacroiliitis in CT Scans Based on Radiomics and Deep Learning</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Lei Liu, Haoyu Zhang, Weifeng Zhang, Wei Mei</td>
+								</tr>
+								<tr height=40 style='height:30.0pt'>
+									<td height=40 class=xl66 style='height:30.0pt;border-top:none;
+  '>34</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>77</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Noninvasive blood pressure waveform measurement method based on CNN-LSTM</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Zheng Wang，Dongmei Lin，Aihua Zhang，Yurun Ma，Xiaolei Chen</td>
+								</tr>
+								<tr height=40 style='height:30.0pt'>
+									<td height=40 class=xl66 style='height:30.0pt;border-top:none;
+  '>35</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>108</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>A Deformable Convolution Encoder with Multi-Scale Attention Fusion Mechanism for Classification of Brain Tumor MRI Images</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Haipeng Zhu, Hong He, Neil Roberts, Kunhao Li</td>
+								</tr>
+								<tr height=40 style='height:30.0pt'>
+									<td height=40 class=xl66 style='height:30.0pt;border-top:none;
+  '>36</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>90</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>UMixer: A novel U-shaped convolutional mixer for multi-scale feature fusion in Medical Image Segmentation</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Yongxin Su，Hongbo Huang，Zun Song，Lei Lin，Jinhan Liu</td>
+								</tr>
+								<tr height=40 style='height:30.0pt'>
+									<td height=40 class=xl66 style='height:30.0pt;border-top:none;
+  '>37</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>12</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>An overview and forecast of biometric recognition technology used in forensic science
+									</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Zhen Peng, Jun He, Fan Yang, Xingchun Zhao</td>
+								</tr>
+								<tr height=40 style='height:30.0pt'>
+									<td height=40 class=xl66 style='height:30.0pt;border-top:none;
+  '>38</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>123</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>An Adaptive Weight Joint Loss Optimization For Dog Face Recognition</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Qiwang Wang, Jiwei Song, Le Chang, Qing Tian, Zhaofeng He</td>
+								</tr>
+								<tr height=40 style='height:30.0pt'>
+									<td height=40 class=xl66 style='height:30.0pt;border-top:none;
+  '>39</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>100</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>A Simple Convolutional Neural Network for Small Sample Multi-lingual Offline Handwritten Signature Recognition</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Wanying Li, maihefureti muhammat, Xu Xuebin, Kurban Ubul</td>
+								</tr>
+								<tr height=20 style='height:15.0pt'>
+									<td height=20 class=xl66 style='height:15.0pt;border-top:none;
+  '>40</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>105</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Improved YOLOv5 for Dense Wildlife Object Detection</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>yuhang pei, Liming Xu, bochuan zheng</td>
+								</tr>
+								<tr height=20 style='height:15.0pt'>
+									<td height=20 class=xl66 style='height:15.0pt;border-top:none;
+  '>41</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>76</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Shoe print retrieval algorithm based on improved efficientnetV2</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Yiran Xin，Yunqi Tang，Zuhe Yang</td>
+								</tr>
+								<tr height=40 style='height:30.0pt'>
+									<td height=40 class=xl66 style='height:30.0pt;border-top:none;
+  '>42</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>125</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>MDF-Net: Multimodal Deep Fusion for Large-scale Product Recognition</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Yanling Pan, Ruizhi Zhou, Gang Zhao, Weijuan Zhang, Delong Chen, Fan Liu </td>
+								</tr>
+								<tr height=40 style='height:30.0pt'>
+									<td height=40 class=xl66 style='height:30.0pt;border-top:none;
+  '>43</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>72</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Survey on Deep Learning based Fusion Recognition of Multimodal Biometrics</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Qiuling Yang，Xiaoliang Chen，Zhaofeng He，Le Chang</td>
+								</tr>
+								<tr height=40 style='height:30.0pt'>
+									<td height=40 class=xl66 style='height:30.0pt;border-top:none;
+  '>44</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>38</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Blind Perceptual Quality Assessment for Single Image Motion Deblurring</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>CongLi Li, Chao Xu, ChaoYi Chen, ChengJun Xu, Zhe Wei</td>
+								</tr>
+								<tr height=40 style='height:30.0pt'>
+									<td height=40 class=xl66 style='height:30.0pt;border-top:none;
+  '>45</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>98</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>UAV AERIAL PHOTOGRAPHY TRAFFIC OBJECT DETECTION BASED ON LIGHTWEIGHT DESIGN AND FEATURE FUSION</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Xuesen Ma, Tianbao Zhou, Ji Ma, Gonghui Jiang, Xuemei Xu</td>
+								</tr>
+								<tr height=40 style='height:30.0pt'>
+									<td height=40 class=xl66 style='height:30.0pt;border-top:none;
+  '>46</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>92</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Augmented Feature Representation with Parallel Convolution for Cross-domain Facial Expression Recognition</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Fan Yang，Weicheng Xie，Tao Zhong，Jingyu Hu，Linlin Shen</td>
+								</tr>
+								<tr height=40 style='height:30.0pt'>
+									<td height=40 class=xl66 style='height:30.0pt;border-top:none;
+  '>47</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>104</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Synthetic Feature Generative Adversarial Network for Motor Imagery Classification: Create Feature from Sampled Data</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Huan LUO, Na Lu, Niu Xu, Xuecai Zhou</td>
+								</tr>
+								<tr height=20 style='height:15.0pt'>
+									<td height=20 class=xl66 style='height:15.0pt;border-top:none;
+  '>48</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>46</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>INCREMENTAL EEG BIOMETRIC RECOGNITION BASED ON EEG RELATION NETWORK</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Jianghong Kang , Na Lu, Niu Xu<span style='mso-spacerun:yes'>&nbsp;</span></td>
+								</tr>
+								<tr height=40 style='height:30.0pt'>
+									<td height=40 class=xl66 style='height:30.0pt;border-top:none;
+  '>49</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>51</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Efficient Video Understanding-based Random Hand Gesture Authentication</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Huilong Xie, Wenwei Song, and Wenxiong Kang</td>
+								</tr>
+								<tr height=40 style='height:30.0pt'>
+									<td height=40 class=xl66 style='height:30.0pt;border-top:none;
+  '>50</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>93</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Adaptive Enhanced Micro-expression Spotting Network based on Multi-stage Features Extraction
+									</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Zhihua Xie，Sijia Cheng，Xiaoyu Liu，Jiawei Fan</td>
+								</tr>
+								<tr height=60 style='height:45.0pt'>
+									<td height=60 class=xl66 style='height:45.0pt;border-top:none;
+  '>51</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>62</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Adaptive Joint Interdependency Learning for 2D Occluded Hand Pose Estimation</td>
+									<td class=xl66 style='border-top:none;border-left:none;'>Wu Pingping, Lunke Fei, Shuping Zhao, Peipei Kang, Shaohua Teng, Xiaozhao Fang</td>
+								</tr>
+							</table>
+
+						</div>
+
 					</div>
 				</div>
 
@@ -198,6 +739,16 @@
                 -->
 				<div class="m_right col-lg-4">
 					<div class="sticky-top r_lm mt-4">
+						<div class="zw d-none d-lg-block">
+							<div class="tg text-center">论文报告</div>
+							<div class="cmit">
+								<div class="nav" id="v-zw-tab" role="tablist" aria-orientation="vertical">
+									<a class="list-group-item list-group-item-action active" id="v-cfp-tab" data-toggle="pill" href="#l1" role="tab" aria-controls="v-lw" aria-selected="true">口头报告</a>
+									<a class="list-group-item list-group-item-action" id="v-cfp-tab" data-toggle="pill" href="#l2" role="tab" aria-controls="v-lw" aria-selected="false">墙报展示</a>
+								</div>
+							</div>
+						</div>
+
 						<div class="mt-4 zyjc"></div>
 						<div class="mt-4 zzqy"></div>
 
@@ -239,13 +790,25 @@
 			$(function() {
 				dh();
 				urt();
-				var html = $.ajax({url:"code/nav.html" , async:false});
+				var html = $.ajax({
+					url: "code/nav.html",
+					async: false
+				});
 				$(".n").html(html.responseText);
-				var html = $.ajax({url:"code/zyjc.html" , async:false});
+				var html = $.ajax({
+					url: "code/zyjc.html",
+					async: false
+				});
 				$(".zyjc").html(html.responseText);
-				var html = $.ajax({url:"code/zzqy.html" , async:false});
+				var html = $.ajax({
+					url: "code/zzqy.html",
+					async: false
+				});
 				$(".zzqy").html(html.responseText);
-				var html = $.ajax({url:"code/footer.html" , async:false});
+				var html = $.ajax({
+					url: "code/footer.html",
+					async: false
+				});
 				$(".footer").html(html.responseText);
 			})
 		</script>

@@ -1,3 +1,7 @@
+.zlwsl tr td {
+	vertical-align: middle;
+}
+
 a {
 	transition: color 0.3s ease-in-out;
 }
@@ -17,34 +21,38 @@ body {
 	letter-spacing: 0.01rem;
 	margin-top: 3.5rem;
 	background-color: #f6f6f6;
+	/*font-family: 微软雅黑, sans-serif;*/
 }
-div{
+
+div {
 	overflow-wrap: break-word;
-    word-wrap: break-word;
-    -ms-word-break: break-all;
-    word-break: break-all;
-    word-break: break-word;
-    -ms-hyphens: auto;
-    -moz-hyphens: auto;
-    -webkit-hyphens: auto;
-    hyphens: auto;
+	word-wrap: break-word;
+	-ms-word-break: break-all;
+	word-break: break-all;
+	word-break: break-word;
+	-ms-hyphens: auto;
+	-moz-hyphens: auto;
+	-webkit-hyphens: auto;
+	hyphens: auto;
 }
-p{
+
+p {
 	overflow-wrap: break-word;
-    word-wrap: break-word;
-    -ms-word-break: break-all;
-    word-break: break-all;
-    word-break: break-word;
-    -ms-hyphens: auto;
-    -moz-hyphens: auto;
-    -webkit-hyphens: auto;
-    hyphens: auto;
-    
-    margin-bottom: 0.5rem !important;
+	word-wrap: break-word;
+	-ms-word-break: break-all;
+	word-break: break-all;
+	word-break: break-word;
+	-ms-hyphens: auto;
+	-moz-hyphens: auto;
+	-webkit-hyphens: auto;
+	hyphens: auto;
+	margin-bottom: 0.5rem !important;
 }
-ul{
+
+ul {
 	padding-left: 20px;
 }
+
 .fs-18 {
 	font-size: 18px;
 }
@@ -57,14 +65,16 @@ ul{
 	color: #0f65b1;
 	margin-bottom: 1rem;
 }
-.ccbr_543234 td, .ccbr_543234 th {
-    padding: 0.5rem;
-    vertical-align: middle;
-    width: 50%;
+
+.ccbr_543234 td,
+.ccbr_543234 th {
+	padding: 0.5rem;
+	vertical-align: middle;
+	width: 50%;
 }
+
 @media (min-width: 991px) {
-	
-	#chtest{
+	#chtest {
 		height: 478px !important;
 	}
 	#certify .swiper-slide {
@@ -74,7 +84,6 @@ ul{
 	.ccbr_d34245 tr td:last-child {
 		width: 33%;
 	}
-	
 	.ccbr_d34245 tr td {
 		border: 0px solid #dee2e6 !important;
 	}
@@ -122,7 +131,6 @@ ul{
 }
 
 @media (max-width: 991px) {
-	
 	.ccbr_3twet34 {
 		height: calc(100vh - 3.5rem);
 	}
@@ -170,7 +178,6 @@ ul{
 	.ccbr_3j425 {
 		width: .84rem !important;
 	}
-
 	.ccbr_543234 td,
 	.ccbr_543234 th {
 		font-size: 13px !important;
@@ -273,13 +280,11 @@ ul{
 /*>=767的设备 }*/
 
 @media screen and (min-width: 768px) {
-	
 	.col-md-20 {
-    -ms-flex: 0 0 20%;
-    flex: 0 0 20%;
-    max-width: 20%;
-}
-	
+		-ms-flex: 0 0 20%;
+		flex: 0 0 20%;
+		max-width: 20%;
+	}
 	.ccbr_yqjb {
 		height: 300px;
 	}
@@ -294,7 +299,7 @@ ul{
 	.ccbr_d23s344 {
 		height: 68%;
 		overflow: auto;
-		padding-right:5px ;
+		padding-right: 5px;
 	}
 	.col-45 {
 		-ms-flex: 0 0 45%;
@@ -517,8 +522,8 @@ a:visited {
 }
 
 @media (max-width:991.98px) {
-	.m-wm{
-		width:100% !important;
+	.m-wm {
+		width: 100% !important;
 	}
 	.navbar-custom .navbar-toggler {
 		display: flex;
@@ -655,6 +660,7 @@ a:visited {
 	margin-top: -3rem;
 	content: "";
 }
+
 .l_dd::before {
 	display: block;
 	height: 4rem;
@@ -712,38 +718,35 @@ a:visited {
 		max-width: 30%;
 		margin-left: 2%;
 	}
-	
-	.m_right2{
+	.m_right2 {
 		-ms-flex: 0 0 31.5% !important;
 		flex: 0 0 31.5% !important;
-    	max-width: 31.5% !important;
-    	margin-left: 0.5% !important;
+		max-width: 31.5% !important;
+		margin-left: 0.5% !important;
 	}
-	
-	
 }
 
 .cmit .list-group-item {
-    position: relative;
-    display: inline-block;
-    padding: 0.4rem;
-    background-color: #fff;
-    border-bottom: 1px solid #0d6dbf;
-    border-right: 1px solid #0d6dbf;
-    width: 50%;
-    text-align: center;
+	position: relative;
+	display: inline-block;
+	padding: 0.4rem;
+	background-color: #fff;
+	border-bottom: 1px solid #0d6dbf;
+	border-right: 1px solid #0d6dbf;
+	width: 50%;
+	text-align: center;
 }
 
 .ccbrdsdw .list-group-item {
-    position: relative;
-    display: inline-block;
-    padding: 0.4rem;
-    background-color: #fff;
-    /* border: 1px solid rgba(0, 0, 0, .125); */
-    border: 0;
-    width: 33.333%;
-    text-align: center;
-    border: 1px solid #0d6dbf;
+	position: relative;
+	display: inline-block;
+	padding: 0.4rem;
+	background-color: #fff;
+	/* border: 1px solid rgba(0, 0, 0, .125); */
+	border: 0;
+	width: 33.333%;
+	text-align: center;
+	border: 1px solid #0d6dbf;
 }
 
 .ccbr5jkwr453 .list-group-item,
@@ -987,25 +990,28 @@ a:visited {
 .Online span {
 	vertical-align: middle;
 }
-.video-js .vjs-live-control{
+
+.video-js .vjs-live-control {
 	line-height: 4em !important;
 }
 
-#chat{
+#chat {
 	height: 100%;
 }
 
-.BestReviewers{
+.BestReviewers {
 	padding: 15px;
 }
-.BestReviewers li{
+
+.BestReviewers li {
 	list-style-type: unset;
 	margin-bottom: 5px;
 }
 
 .cmit .list-group-item:nth-child(odd) {
-    border-left: 1px solid #0d6dbf;
+	border-left: 1px solid #0d6dbf;
 }
+
 .i_m_left {
-    padding-bottom: 30px;
+	padding-bottom: 30px;
 }
