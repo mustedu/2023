@@ -1,3 +1,4 @@
+
 .style0
 	{mso-number-format:General;
 	text-align:general;
@@ -18,6 +19,30 @@
 	mso-protection:locked visible;
 	mso-style-name:常规;
 	mso-style-id:0;}
+.font8
+	{color:black;
+	font-size:10.5pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:微软雅黑, sans-serif;
+	mso-font-charset:134;}
+.font10
+	{color:black;
+	font-size:10.5pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:微软雅黑, sans-serif;
+	mso-font-charset:134;}
+.font13
+	{color:windowtext;
+	font-size:10.5pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:微软雅黑, sans-serif;
+	mso-font-charset:134;}
 
 .xl65
 	{mso-style-parent:style0;
@@ -296,15 +321,6 @@
 .xl93
 	{mso-style-parent:style0;
 	font-size:10.5pt;
-	font-family:微软雅黑, sans-serif;
-	mso-font-charset:134;
-	mso-number-format:"Short Time";
-	text-align:center;
-	vertical-align:middle;
-	white-space:normal;}
-.xl94
-	{mso-style-parent:style0;
-	font-size:10.5pt;
 	font-weight:700;
 	font-family:微软雅黑, sans-serif;
 	mso-font-charset:134;
@@ -317,7 +333,7 @@
 	background:#DDEBF7;
 	mso-pattern:black none;
 	white-space:normal;}
-.xl95
+.xl94
 	{mso-style-parent:style0;
 	font-size:10.5pt;
 	font-weight:700;
@@ -331,7 +347,7 @@
 	background:#DDEBF7;
 	mso-pattern:black none;
 	white-space:normal;}
-.xl96
+.xl95
 	{mso-style-parent:style0;
 	font-size:10.5pt;
 	font-weight:700;
@@ -345,7 +361,7 @@
 	background:#DDEBF7;
 	mso-pattern:black none;
 	white-space:normal;}
-.xl97
+.xl96
 	{mso-style-parent:style0;
 	font-size:10.5pt;
 	font-weight:700;
@@ -360,7 +376,7 @@
 	background:#DDEBF7;
 	mso-pattern:black none;
 	white-space:normal;}
-.xl98
+.xl97
 	{mso-style-parent:style0;
 	font-size:10.5pt;
 	font-weight:700;
@@ -374,7 +390,28 @@
 	background:#DDEBF7;
 	mso-pattern:black none;
 	white-space:normal;}
+.xl98
+	{mso-style-parent:style0;
+	font-size:10.5pt;
+	font-family:微软雅黑, sans-serif;
+	mso-font-charset:134;
+	mso-number-format:"Short Time";
+	text-align:center;
+	vertical-align:middle;
+	background:white;
+	mso-pattern:black none;
+	white-space:normal;}
 .xl99
+	{mso-style-parent:style0;
+	font-size:10.5pt;
+	font-family:微软雅黑, sans-serif;
+	mso-font-charset:134;
+	text-align:center;
+	vertical-align:middle;
+	background:white;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl100
 	{mso-style-parent:style0;
 	color:#C00000;
 	font-size:10.5pt;
@@ -386,7 +423,7 @@
 	vertical-align:middle;
 	border:.5pt solid windowtext;
 	white-space:normal;}
-.xl100
+.xl101
 	{mso-style-parent:style0;
 	color:white;
 	font-size:10.5pt;
@@ -402,7 +439,7 @@
 	background:#0070C0;
 	mso-pattern:black none;
 	white-space:normal;}
-.xl101
+.xl102
 	{mso-style-parent:style0;
 	color:white;
 	font-size:10.5pt;
@@ -418,7 +455,7 @@
 	background:#0070C0;
 	mso-pattern:black none;
 	white-space:normal;}
-.xl102
+.xl103
 	{mso-style-parent:style0;
 	font-size:10.5pt;
 	font-family:微软雅黑, sans-serif;
