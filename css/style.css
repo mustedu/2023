@@ -1008,7 +1008,11 @@ a:visited {
 	margin-bottom: 5px;
 }
 
-.cmit .list-group-item:nth-child(odd) {
+/*.cmit .list-group-item:nth-child(odd) {
+	border-left: 1px solid #0d6dbf;
+}*/
+
+.cmit .list-group-item{
 	border-left: 1px solid #0d6dbf;
 }
 
