@@ -74,6 +74,10 @@ ul {
 }
 
 @media (min-width: 991px) {
+	.nav-link:hover {
+	color: #1D2087 !important;
+}
+	
 	#chtest {
 		height: 478px !important;
 	}
@@ -218,11 +222,14 @@ ul {
 #navl .nl li .nav-link {
     display: block;
     line-height: 60px;
-    color: #1D2087;
+    color: #31424e;
 }
 	
 	
-	
+	.nav-link:hover {
+	color:#31424e !important;
+	font-weight: bold;
+}
 	
 	
 	
@@ -415,9 +422,7 @@ ul {
 	color: #1D2087;
 }
 
-.nav-link:hover {
-	color: #1D2087 !important;
-}
+
 
 .title-wrap {
 	display: inline-block;
@@ -425,7 +430,7 @@ ul {
 	padding: 0 1.2rem;
 	color: #0f65b1;
 	border-bottom: 0.1rem solid;
-	font-weight: bold;
+	font-weight: b;
 }
 
 .title-wrap-s {
