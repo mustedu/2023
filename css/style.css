@@ -327,7 +327,7 @@ ul {
 	.title-wrap,
 	.m_right .tg {
 		font-size: 1.2rem;
-		line-height: 2rem;
+		/*line-height: 2rem;*/
 	}
 }
 
@@ -366,7 +366,7 @@ ul {
 	}
 	.title-wrap,
 	.m_right .tg {
-		font-size: 1.4rem;
+		font-size: 1.2rem;
 		/*line-height: 2.4rem;*/
 	}
 	/*.zwh .table td:first-child {*/
@@ -447,7 +447,8 @@ ul {
 	padding: 0 1.2rem;
 	color: #0f65b1;
 	border-bottom: 0.1rem solid;
-	font-weight: b;
+	font-size: 1.4rem;
+	    padding-bottom: 10px;
 }
 
 .title-wrap-s {
