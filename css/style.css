@@ -367,7 +367,7 @@ ul {
 	.title-wrap,
 	.m_right .tg {
 		font-size: 1.4rem;
-		line-height: 2.4rem;
+		/*line-height: 2.4rem;*/
 	}
 	/*.zwh .table td:first-child {*/
 	/*	padding-left: 6rem !important;*/
@@ -494,7 +494,7 @@ ul {
 
 .m_right .tg {
 	color: #FFFFFF;
-	padding: 0 1.2rem;
+	padding: 5px 1.2rem;
 }
 
 .tgc .list #scroll2 {
