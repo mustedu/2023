@@ -51,6 +51,7 @@ p {
 
 ul {
 	padding-left: 20px;
+	list-style-type: auto;
 }
 
 .fs-18 {
@@ -238,8 +239,9 @@ ul {
 
 #navl .nl li .nav-link {
     display: block;
-    line-height: 60px;
+    /*line-height: 60px;*/
     color: #31424e;
+    padding: 10px 0;
 }
 	
 	
@@ -747,7 +749,7 @@ a:visited {
 	background-color: transparent;
 	min-width: auto;
 	border: 0;
-	left: -17px;
+	left: -30px;
 	text-align: center;
 }
 
@@ -1092,4 +1094,17 @@ a:visited {
 
 .i_m_left {
 	padding-bottom: 30px;
+}
+
+.nav-item .nav-link{
+	padding-top: 0;
+	padding-bottom: 0;
+}
+.nav-item .nav-link span,.nav-item ul a span{
+	font-size: 12px;
+	display: inline-block;
+}
+
+ul li .time{
+	margin-bottom: 0 !important;
 }
