@@ -1114,3 +1114,8 @@ ul li .time{
 li span{
 	display: block !important;
 }
+
+
+.logobo img{
+	    border: 1px dashed #dee2e6;
+}
